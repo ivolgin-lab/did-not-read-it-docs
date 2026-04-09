@@ -1,0 +1,4 @@
+navigation:
+  - title: Getting Started
+    icon: rocket
+    page: pages/getting-started.md
