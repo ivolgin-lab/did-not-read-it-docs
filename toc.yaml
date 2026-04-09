@@ -1,4 +1,22 @@
 navigation:
+  - title: Using didnotreadit
+    icon: book
+    items:
+      - title: Overview
+        page: pages/usage/overview.md
+      - title: Accounts
+        page: pages/usage/accounts.md
+      - title: Browsing and Voting
+        page: pages/usage/browsing.md
+      - title: Creating a didnotreadit
+        page: pages/usage/didnotreadits.md
+      - title: Submitting Posts
+        page: pages/usage/posts.md
+      - title: Comments
+        page: pages/usage/comments.md
+      - title: Search
+        page: pages/usage/search.md
+
   - title: Installation
     icon: rocket
     items:
