@@ -42,7 +42,7 @@ navigation:
     icon: database
     items:
       - title: Terraform Module
-        terraform_module: github.com/ivolgin-lab/did-not-read-it-terraform//.?ref=main
+        terraform_module: github.com/ivolgin-lab/did-not-read-it-terraform//modules/helm?ref=main
         visible_when:
           entitlements:
             - is_terraform_enabled
