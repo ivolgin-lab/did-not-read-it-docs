@@ -37,6 +37,16 @@ navigation:
         visible_when:
           entitlements:
             - isHelmInstallEnabled
+
+  - title: Infrastructure
+    icon: database
+    items:
+      - title: Terraform Module
+        terraform_module: github.com/ivolgin-lab/did-not-read-it-terraform?ref=main
+        visible_when:
+          entitlements:
+            - isTerraformEnabled
+
   - title: Operations
     icon: wrench
     items:
