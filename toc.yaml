@@ -45,7 +45,7 @@ navigation:
         terraform_module: github.com/ivolgin-lab/did-not-read-it-terraform?ref=main
         visible_when:
           entitlements:
-            - isTerraformEnabled
+            - is_terraform_enabled
 
   - title: Operations
     icon: wrench
