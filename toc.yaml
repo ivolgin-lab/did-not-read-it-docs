@@ -72,5 +72,15 @@ navigation:
       - title: Contact Support
         page: pages/support/contact.md
 
+  - title: Reference
+    icon: book
+    items:
+      - title: Helm Chart
+        helm_chart:
+          name: didnotreadit
+        visible_when:
+          entitlements:
+            - isHelmInstallEnabled
+
 overrides:
   home: pages/home.md
